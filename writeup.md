@@ -53,6 +53,7 @@ Below is an example of these functions at work.
 #### 3. Combining overlapping bounding boxes.
 
 I have combined scales of 1.0, 1.5 and 2.0 with their own ystart and ystop values to lower the ammount of false-postive search boxes.
+
 ---
 
 ### Video Implementation
