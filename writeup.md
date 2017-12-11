@@ -6,19 +6,19 @@ n Project
 
 I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
 
-![car_noncar][./output_images/car_noncar.png]
+![car-noncar](./output_images/car_noncar.png)
 
 Function `get_hog_features` was used to extract hog features. I can use different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`) to do experiment.  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.
 
 Here is an example using the `RGB` color space and HOG parameters of `orientations=9`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
 
 
-![color_hog][./output_images/hog.png]
+![color-hog](./output_images/hog.png)
 
 #### 2. Color Histogram Features
 Function `color_hist` was used to computed color Histogram features labeled hist_features. 
 
-![color_hist][./output_images/hist.png]
+![color-hist](./output_images/hist.png)
 
 
 #### 3. Spatial Binning of Color features
@@ -37,10 +37,10 @@ Function `extract_features` was used to extract features from a list of images. 
 
 First, I compute the span of the region to be searched, then compute the number of pixels per step in x/y. Next, I compute the number of windows in x/y. At last, I loop through windows and calculate the window position.
 
-![sliding-window][./output_images/sliding-window.png]
+![sliding-window](./output_images/sliding-window.png)
 
 Here are some examples images using `search_windows` function and the above parameter choice.
-![windows][./output_images/windows.png]
+![windows](./output_images/windows.png)
 
 #### 2. Filter for false positives.
 
@@ -48,7 +48,7 @@ I recorded the positions of positive detections in each frame of the video.  Fro
 
 Below is an example of these functions at work.
 
-![heatmap][./output_images/heatmap.png]
+![heatmap](./output_images/heatmap.png)
 
 #### 3. Combining overlapping bounding boxes.
 
