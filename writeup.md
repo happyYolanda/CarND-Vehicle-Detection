@@ -1,6 +1,4 @@
 
-n Project
-
 ### Feature Extraction and Classification
 #### 1. Histogram of Oriented Gradients (HOG)
 
