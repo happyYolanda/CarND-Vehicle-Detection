@@ -57,7 +57,9 @@ I have combined scales of 1.0, 1.5 and 2.0 with their own ystart and ystop value
 
 ### Video Implementation
 
-My project video result: ./test-videos/project_output.mp4 Test video result: ./test-videos/test_output.mp4)
+My project video result: ./test-videos/project_output.mp4 
+
+Test video result: ./test-videos/test_output.mp4
 
 ---
 
